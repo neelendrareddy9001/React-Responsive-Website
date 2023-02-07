@@ -79,6 +79,17 @@ heder.active {
     height: 30vh;
     z-index: 5;
   }
+  .nav-links-sidebar {
+    display : flex;
+    flex-direction : column;
+    margin-bottom : 30px;
+  }
+  header ul li {
+     margin-bottom : 30px;
+  }
+  .navbar-items-icon {
+     display: block;
+  }
 }
 
 /*-------End of Header -------*/
