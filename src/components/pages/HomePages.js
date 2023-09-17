@@ -3,6 +3,7 @@ import Home from "../home/homes/Home";
 import Branding from "../home/Branding";
 import About from "../home/about/About";
 import Service from "../home/services/Service";
+import Wrapper from "../home/Wrapper";
 
 const HomePages = () => {
   return (
@@ -11,6 +12,7 @@ const HomePages = () => {
       <Branding />
       <About />
       <Service />
+      <Wrapper />
     </div>
   );
 };
