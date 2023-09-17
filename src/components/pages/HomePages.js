@@ -1,12 +1,12 @@
 import React from "react";
 import Home from "../home/homes/Home";
 
-const HomePage = () => {
+const HomePages = () => {
   return (
-    <>
+    <div>
       <Home />
-    </>
+    </div>
   );
 };
 
-export default HomePage;
+export default HomePages;

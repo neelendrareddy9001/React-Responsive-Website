@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import WorkIcon from "@mui/icons-material/Work";
 import GridViewIcon from "@mui/icons-material/GridView";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
+
+import Logo from "../../../assets/logo.png";
 
 const Header = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -13,7 +15,7 @@ const Header = () => {
       <header className="header">
         <div className="container flex">
           <div className="logo">
-            <img src="assets/logo.png" alt="" />
+            <img src={Logo} alt="" />
           </div>
           <div className="nav">
             <ul
