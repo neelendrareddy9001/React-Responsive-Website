@@ -11,12 +11,12 @@ const About = () => {
         "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
       desc3:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      cover: { about1 },
+      cover: about1,
     },
   ];
   return (
     <>
-      <section className="about topMargin">
+      <section className="about topMarign">
         <div className="container flex">
           {data.map((value) => {
             return (
@@ -30,9 +30,8 @@ const About = () => {
                   <p>{value.desc1}</p>
                   <p>{value.desc2}</p>
                   <p>{value.desc3}</p>
-                  <button className="primary-btn">Dwonload CV</button>
+                  <button className="primary-btn">Download CV</button>
                 </div>
-
                 <div className="right">
                   <div className="img">
                     <img src={value.cover} alt="" />
