@@ -278,7 +278,7 @@ h3 {
   margin-bottom: 20px;
 }
 .about .left {
-  padding-right: 30px;
+  padding: 0 20px;
 }
 
 .about .img {
@@ -286,10 +286,12 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 55%;
+  height: 91%;
 }
 .about img {
   object-fit: contain;
+  height: 100%;
 }
 .about .img::after {
   content: "";
