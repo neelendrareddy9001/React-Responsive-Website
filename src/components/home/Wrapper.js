@@ -12,9 +12,9 @@ const Wrapper = () => {
     <>
       <section className="Branding wrapper">
         <div className="container">
-          {data.map((value) => {
+          {data.map((value, i) => {
             return (
-              <div className="box">
+              <div key={i} className="box">
                 <h3>{value.title}</h3>
                 <h2>{value.heading}</h2>
                 <p>{value.desc}</p>

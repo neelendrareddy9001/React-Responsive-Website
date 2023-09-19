@@ -23,9 +23,9 @@ const WrapperOne = () => {
     <>
       <section className="Branding wrapperOne">
         <div className="container grid1">
-          {data.map((value) => {
+          {data.map((value, i) => {
             return (
-              <div className="box">
+              <div key={i} className="box">
                 <h1>{value.num}</h1>
                 <p>{value.text}</p>
               </div>

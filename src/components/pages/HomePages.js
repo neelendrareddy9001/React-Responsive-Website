@@ -7,6 +7,7 @@ import Wrapper from "../home/Wrapper";
 import Skill from "../home/Skill";
 import WrapperOne from "../home/WrapperOne";
 import Work from "../home/work/Work";
+import Blog from "../home/blog/Blog";
 
 const HomePages = () => {
   return (
@@ -14,11 +15,12 @@ const HomePages = () => {
       <Home />
       <Branding />
       <About />
-      <Service />
+      {/* <Service />
       <Wrapper />
       <Skill />
       <WrapperOne />
       <Work />
+      <Blog /> */}
     </div>
   );
 };

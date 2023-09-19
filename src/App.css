@@ -549,6 +549,7 @@ h3 {
 /*------------ work ----------*/
 /*------------ blog ----------*/
 .blog .heading {
+  margin: 20px auto;
   text-align: center;
 }
 .blog .text {

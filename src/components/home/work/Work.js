@@ -13,10 +13,10 @@ const Work = () => {
         </div>
 
         <div className="content">
-          {Data.map((val) => {
+          {Data.map((val, i) => {
             return (
               <>
-                <div className="box">
+                <div key={i} className="box">
                   <div className="img">
                     <img src={val.cover} alt="" />
                   </div>

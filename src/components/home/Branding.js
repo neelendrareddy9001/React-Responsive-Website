@@ -22,9 +22,9 @@ const Branding = () => {
     <>
       <section className="Branding">
         <div className="container grid">
-          {data.map((value) => {
+          {data.map((value, i) => {
             return (
-              <div className="box flex">
+              <div key={i} className="box flex">
                 <div className="text">
                   <h1>{value.id}</h1>
                 </div>

@@ -18,7 +18,7 @@ const About = () => {
     <>
       <section className="about topMarign">
         <div className="container flex">
-          {data.map((value) => {
+          {data.map((value, id) => {
             return (
               <>
                 <div className="left mtop">
@@ -27,9 +27,15 @@ const About = () => {
                     <h1>{value.title}</h1>
                   </div>
 
-                  <p>{value.desc1}</p>
-                  <p>{value.desc2}</p>
-                  <p>{value.desc3}</p>
+                  <p> {value.desc1}</p>
+                  <p>
+                    key={id}
+                    {value.desc2}
+                  </p>
+                  <p>
+                    key={id}
+                    {value.desc3}
+                  </p>
                   <button className="primary-btn">Download CV</button>
                 </div>
                 <div className="right">

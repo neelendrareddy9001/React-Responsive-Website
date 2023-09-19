@@ -43,13 +43,15 @@ const Skill = () => {
               <Progress done="70" title="REACT JS" />
             </div>
             <div className="right mtop">
-              {data.map((val) => {
+              {data.map((val, i) => {
                 return (
                   <>
-                    <h1>{val.title}</h1>
-                    <p>{val.para}</p>
-                    <p>{val.para1}</p>
-                    <button className="primary-btn">Hire Me</button>
+                    <div key={i}>
+                      <h1>{val.title}</h1>
+                      <p>{val.para}</p>
+                      <p>{val.para1}</p>
+                      <button className="primary-btn">Hire Me</button>
+                    </div>
                   </>
                 );
               })}

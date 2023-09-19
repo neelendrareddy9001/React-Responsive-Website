@@ -12,10 +12,10 @@ const Service = () => {
           </div>
 
           <div className="contain grid topMargin">
-            {ServiceData.map((vale) => {
+            {ServiceData.map((vale, i) => {
               return (
                 <>
-                  <div className="box">
+                  <div key={i} className="box">
                     <div className="img">
                       <img src={vale.cover} alt="" />
                     </div>
