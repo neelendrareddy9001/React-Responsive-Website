@@ -8,6 +8,7 @@ import Skill from "../home/Skill";
 import WrapperOne from "../home/WrapperOne";
 import Work from "../home/work/Work";
 import Blog from "../home/blog/Blog";
+import Footer from "../home/Footer";
 
 const HomePages = () => {
   return (
@@ -15,12 +16,13 @@ const HomePages = () => {
       <Home />
       <Branding />
       <About />
-      {/* <Service />
+      <Service />
       <Wrapper />
       <Skill />
       <WrapperOne />
       <Work />
-      <Blog /> */}
+      <Blog />
+      <Footer />
     </div>
   );
 };
