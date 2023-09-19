@@ -1,4 +1,4 @@
-Project Netlify live demo link: https://app.netlify.com/sites/leafy-mousse-5a74de/deploys/6509692462c3680008287bcf
+Project Netlify live demo link: https://main--leafy-mousse-5a74de.netlify.app/
 
 # Getting Started with Create React App
 
